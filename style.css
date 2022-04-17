@@ -1,0 +1,247 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #5b614857;
+}
+
+header{
+  background-color: #5b6148;
+}
+
+header img {
+  width: 100px;
+  padding: 20px 0px 20px 50px;
+}
+
+nav {
+  display: inline-block;
+}
+
+ul {
+  margin: 0;
+}
+
+ul > li {
+  padding-right: 30px;
+}
+
+ul a, li{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+
+header > div {
+  display: inline-block;
+}
+
+header > div > input {
+  cursor: pointer;
+  background-color: #707463;
+  color: white;
+  padding: 6px 15px;
+  border-radius: 5px;
+}
+
+main {
+  margin: auto;
+  width: 1200px;
+}
+
+section#a {
+  width: 1200px;
+  background-image: url('imagens/work.jpg');
+  background-size: 1200px;
+  background-repeat: no-repeat;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.671);
+}
+
+section#a > h2{
+  margin-top: 0;
+  padding: 300px 0px 0px 50px;
+  font-size: 3em;
+  color: #15180e;
+}
+
+section#a > input {
+  margin: 0px 0px 248px 50px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #5b6148;
+  color: white;
+  font-size: 1.5em;
+}
+
+section#b {
+  text-align: center;
+  padding: 100px;
+}
+
+#b > h2 {
+  margin-bottom: 0;
+  font-size: 2.5em;
+}
+
+#b > p{
+  font-size: 2em;
+}
+
+section#c {
+  background-color: #5b6148ad;
+  color: white;
+  padding: 50px;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.671);
+  border-radius: 10px;
+}
+
+#c > div{
+  width: 540px;
+  display: inline-block;
+}
+
+#c > div > h2 {
+  font-size: 2.5em;
+}
+
+#c > div > p {
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+#c > div > img { 
+  width: 540px;
+}
+
+section#d {
+  padding: 100px 50px;
+}
+
+#d > div{
+  width: 540px;
+  display: inline-block;
+}
+
+#d > div > h2 {
+  font-size: 2.5em;
+}
+
+#d > div > p {
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+#d > div > img { 
+  width: 540px;
+}
+
+section#e {
+  background-color: #5b6148ad;
+  color: white;
+  padding: 50px;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.671);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#e > div > h2 {
+  font-size: 2.5em;
+}
+
+#e > div.box {
+  display: inline-block;
+  width: 360px;
+}
+
+#e h3.box, p.box {
+  padding: 0px 20px;
+}
+
+section#f {
+  text-align: center;
+  padding: 50px;
+  background-image: url('imagens/street.jpg');
+  background-size: 1200px;
+  background-position: center;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.671);
+}
+
+#f > div > h2 {
+  margin-bottom: 0;
+  font-size: 2em;
+  margin-top: 25px;
+}
+
+#f > div > p {
+  font-size: 1.5em;
+  margin-bottom: 90px;
+}
+
+#f > div.form {
+  margin: auto;
+  margin-bottom: 25px;
+  padding: 35px;
+  width: 400px;
+  text-align: left;
+  border: 1px solid black;
+  background-color: white;
+}
+
+#f > div > h3 {
+  margin-top: 0;
+}
+
+#f > div > input.entrada01 {
+  width: 181px;
+  margin-bottom: 10px;
+  padding: 6px;
+}
+
+#f > div > input.entrada02 {
+  width: 382px;
+  margin-bottom: 10px;
+  padding: 6px;
+}
+
+#f > div > input.registrar {
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+section#g {
+  padding: 50px;
+  background-color: #5b6148ad;
+  color: white;
+  text-align: center;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.671);
+}
+
+#g > div > h2 {
+  margin-top: 0;
+  font-size: 2em;
+}
+
+#txtnewsletteremail {
+  width: 350px;
+  padding:6px;
+}
+
+#email {
+  padding: 6px 15px;
+  color: white;
+  background-color: #5b6148;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #5b6148;
+}
+
+footer img {
+  width: 100px;
+  padding: 20px 0px 20px 50px;
+}
+
+footer > div {
+  display: inline-block;
+}
