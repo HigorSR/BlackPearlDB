@@ -10,15 +10,17 @@ header{
 
 header img {
   width: 100px;
-  padding: 20px 0px 20px 50px;
+  padding: 15px 0px 15px 50px;
 }
 
 nav {
-  display: inline-block;
+  height: 81px;
+  padding-right: 50px;
 }
 
 ul {
   margin: 0;
+  display: inline-block;
 }
 
 ul > li {
@@ -27,20 +29,17 @@ ul > li {
 
 ul a, li{
   display: inline-block;
-  text-decoration: none;
   color: black;
 }
 
-header > div {
-  display: inline-block;
-}
-
-header > div > input {
+header input {
   cursor: pointer;
   background-color: #707463;
   color: white;
-  padding: 6px 15px;
-  border-radius: 5px;
+  padding: 9px 18px;
+  margin-top: 22px;
+  border-radius: 6px;
+  display: inline-block;
 }
 
 main {
@@ -100,6 +99,12 @@ section#c {
   display: inline-block;
 }
 
+.txtc {
+  padding-top: 40px;
+  padding-right: 20px;
+  float: left;
+}
+
 #c > div > h2 {
   font-size: 2.5em;
 }
@@ -120,6 +125,11 @@ section#d {
 #d > div{
   width: 540px;
   display: inline-block;
+}
+
+.txtd {
+  float: right;
+  padding-top: 80px;
 }
 
 #d > div > h2 {
@@ -239,9 +249,25 @@ footer {
 
 footer img {
   width: 100px;
-  padding: 20px 0px 20px 50px;
+  padding: 15px 0px 15px 50px;
 }
 
 footer > div {
   display: inline-block;
+  height: 88px;
+}
+
+footer ul, p {
+  display: inline-block;
+  margin: 0;
+  padding: 32px 0px;
+}
+
+footer ul {
+  padding-right: 400px;
+}
+
+footer p {
+  font-size: 0.9em;
+  padding-right: 50px;
 }
